@@ -1,0 +1,135 @@
+/* ====================================================
+Header Starts
+=======================================================*/
+@media only screen and (min-width: 992px) {
+    .header_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_left a i{
+        margin: 10px;
+    }
+
+    .nav_bar ul{
+        display: flex;
+        white-space: nowrap;
+    }
+
+    .nav_bar ul li a{
+        margin: 10px 20px;
+        padding: 10px;
+        line-height: 20px;
+    }
+
+    .nav_bar ul li a:hover{
+        transform: scale(1.2);
+        border-radius: 0;
+    }
+}
+
+
+/* ====================================================
+Header Ends
+=======================================================*/
+
+/* ====================================================
+Banner Section Starts
+=======================================================*/
+@media only screen and (min-width: 992px) {
+    .banner_container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner_container h1{
+        width: 70%;
+        font-size: 3.5rem;
+    }
+
+    .banner_container p{
+        width: 60%;
+        font-size: 2rem;
+    }
+}
+
+/* ====================================================
+Banner Section Ends
+=======================================================*/
+/* ====================================================
+Food Menu Section Starts
+=======================================================*/
+
+@media only screen and (min-width: 992px) {
+    
+    .food_menu_container{
+        display: flex;
+    }
+
+    .card{
+        width: 25%;
+    }
+
+}
+/* ====================================================
+Food Menu Section Ends
+=======================================================*/
+/* ====================================================
+Contact Section Starts
+=======================================================*/
+
+@media only screen and (min-width: 992px) {
+        
+    .contact_container{
+        display: flex;
+    }
+
+    .contact_map{
+        width: 65%;
+        padding: 10px;
+    }
+
+    .map{
+        height: 350px;
+    }
+
+    .contact_details{
+        width: 35%;
+    }
+
+}
+/* ====================================================
+Contact Section Ends
+=======================================================*/
+/* ====================================================
+Footer Starts
+=======================================================*/
+@media only screen and (min-width: 992px) {
+        
+    .footer_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer_container p{
+        padding: 10px;
+    }
+
+}
+/* ====================================================
+Footer Ends
+=======================================================*/
+
+
+
+
+
+
+
+
+

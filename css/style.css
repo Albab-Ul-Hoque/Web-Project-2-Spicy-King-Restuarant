@@ -1,0 +1,277 @@
+/* ====================================================
+Universal Css
+==================================================== */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* ====================================================
+Header Start
+==================================================== */
+.header_container{
+    width: 100%;
+    padding: 0 20px;
+    background-color: #242582;
+    text-align: center;
+}
+
+/* ====================================================
+Header left [ logo ]
+==================================================== */
+.header_left a i{
+    color: white;
+    margin: 20px 0;
+    padding: 10px 25px;
+    border: 3px solid white;
+    border-radius: 50px;
+    line-height: 70px;
+}
+
+/* ====================================================
+Header right [navigation  menu]
+==================================================== */
+
+.header_right li{
+    list-style: none;
+    width: 100%;
+}
+
+.header_right li a{
+    display: block;
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.header_right li a:hover{
+    background-color: #F64C72;
+}
+
+
+/* ====================================================
+Header Ends
+==================================================== */
+
+/* ====================================================
+Banner Section Starts
+==================================================== */
+
+#banner_section{
+    background-image: url("../img/banner_bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_container{
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.banner_container h1{
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background: rgba(255, 255, 0, 0.842);
+    border-radius: 8px;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.banner_container p{
+    margin: 20px;
+    padding: 10px;
+    background: rgba(245, 79, 50, 0.884);
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px;
+    background: rgba(245, 79, 50, 0.884);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    color: white;
+}
+
+/* ====================================================
+Banner Section Ends
+=======================================================*/
+
+/* ====================================================
+About Us Section Starts
+=======================================================*/
+#about_us{
+    margin: 10px;
+}
+
+.about_us_container{
+    padding: 10px;
+    text-align: center;
+}
+
+.about_us_container h3{
+    margin-bottom: 8px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ====================================================
+About Us Section Ends
+=======================================================*/
+/* ====================================================
+Food Menu Section Starts
+=======================================================*/
+
+#food_section{
+    padding: 1%;
+}
+
+.food_menu_container{
+    margin: 20px;
+}
+
+.card{
+    margin: 20px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card_header img{
+    max-width: 100%;
+    height: auto;
+    display: block;    
+    border: 2px solid black;
+}
+
+.card_footer h3{
+    background-color: #2F2FA2;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card_footer p{
+    background-color: #99738E;
+}
+/* ====================================================
+Food Menu Section Ends
+=======================================================*/
+/* ====================================================
+Contact Section Starts
+=======================================================*/
+
+#contact_us{
+    padding: 1%;
+    padding-bottom: 0;
+}
+
+.contact_container{
+    padding: 20px;
+    color: white;
+    background-color: rgb(99, 9, 134);
+    background-color: #2F2FA2;
+    text-align: center;
+}
+
+.contact_details{
+    margin-top: 20px;
+}
+
+.contact_details > h3{
+    padding: 5px 0;
+    font-size: 1.5rem;
+}
+
+.map{
+    width: 100%;
+    height: 260px;
+}
+
+.contact_line_content{
+    margin: 5px;
+    padding: 5px 0;
+}
+/* ====================================================
+Contact Section Ends
+=======================================================*/
+/* ====================================================
+Footer Starts
+=======================================================*/
+footer{
+    padding: 1%;
+    padding-top: 0;
+}
+.footer_container{
+    color: white;
+    background-color: rgb(230, 176, 185);
+    background-color: #553D67;
+    text-align: center;
+}
+
+.footer_container p{
+    font-size: 0.9rem;
+    line-height: 32px;
+}
+
+.social_menu{
+    margin: 5px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+.social_icon{
+    color: white;
+    font-size: 19px;
+    margin: 0 10px;
+    padding: 5px;
+    width: 36px;
+    border: 2px solid white;
+    border-radius: 25%;
+    transition: 0.4s;
+}
+
+.social_icon:hover{
+    color: rgb(6, 6, 102);
+    color: #F64C72;
+    transform: scale(1.2);
+}
+/* ====================================================
+Footer Ends
+=======================================================*/
+
+
+
+
+
